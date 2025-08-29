@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Heart Disease Prediction</title></head>
+<body>
+    <h2>Heart Disease Prediction</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="age" placeholder="age"><br>
+<input type="text" name="sex" placeholder="sex"><br>
+<input type="text" name="cp" placeholder="cp"><br>
+<input type="text" name="trestbps" placeholder="trestbps"><br>
+<input type="text" name="chol" placeholder="chol"><br>
+<input type="text" name="fbs" placeholder="fbs"><br>
+<input type="text" name="restecg" placeholder="restecg"><br>
+<input type="text" name="thalach" placeholder="thalach"><br>
+<input type="text" name="exang" placeholder="exang"><br>
+<input type="text" name="oldpeak" placeholder="oldpeak"><br>
+<input type="text" name="slope" placeholder="slope"><br>
+<input type="text" name="ca" placeholder="ca"><br>
+<input type="text" name="thal" placeholder="thal"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h3>{ prediction_text }</h3>
+</body>
+</html>
