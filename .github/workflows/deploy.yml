@@ -16,4 +16,5 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: "heart-disease-final-dhall"
           heroku_email: "d.a.hall8@outlook.com"
+          dontautocreate: true
           usedocker: false
