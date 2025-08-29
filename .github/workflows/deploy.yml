@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
@@ -18,3 +18,4 @@ jobs:
           heroku_email: "d.a.hall8@outlook.com"
           dontautocreate: true
           usedocker: false
+          justlogin: true
